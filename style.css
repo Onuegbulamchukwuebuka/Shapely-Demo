@@ -111,11 +111,13 @@
   .hero-page-parent-div p {
     width: 90%;
     font-weight: 80;
+    font-size: small;
   }
   .hero-page-section-div {
     height: auto;
   }
   .hero-page-parent-div h1 {
     font-size: 50px;
+    width: 90%;
   }
 }
