@@ -103,4 +103,15 @@
   #menu {
     display: inline;
   }
+  .hero-page-parent-div div {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .hero-page-parent-div p {
+    width: 90%;
+    font-weight: 80;
+  }
+  .hero-page-section-div {
+    height: auto;
+  }
 }
