@@ -1,0 +1,105 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* nav bar stars here  */
+.nav-bar-section-div {
+  height: 12vh;
+  background-color: white;
+}
+.nav-bar-parent-div {
+  height: 12vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(64, 64, 64);
+}
+.nav-bar-parent-div h1 {
+  font-weight: 100;
+}
+.nav-bar-parent-div div {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.nav-bar-parent-div button {
+  border-color: transparent;
+  background-color: transparent;
+}
+#search {
+  color: blue;
+}
+#menu {
+  color: blue;
+  display: none;
+}
+/* nav bar ends here  */
+/* hero page starts here  */
+.hero-page-section-div {
+  height: 100vh;
+  background-image: url(water.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-page-parent-div {
+  height: 100vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.hero-page-parent-div h1 {
+  text-align: center;
+  font-size: 70px;
+  width: 80%;
+  font-weight: 100;
+}
+.hero-page-parent-div p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 100s;
+}
+.hero-page-parent-div div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 50%;
+}
+.hero-page-parent-div div .read {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: rgb(65, 83, 248);
+  color: white;
+}
+.hero-page-parent-div div .DOWNLOAD {
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+/* hero page ends here  */
+
+/* media query starts here  */
+@media (max-width: 834px) {
+  .nav-bar-parent-div button {
+    display: none;
+  }
+  #search {
+    display: none;
+  }
+  #menu {
+    display: inline;
+  }
+}
