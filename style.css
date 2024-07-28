@@ -43,7 +43,7 @@
 /* hero page starts here  */
 .hero-page-section-div {
   height: 100vh;
-  background-image: url(water.jpg);
+  background-image: url(ocean.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -116,7 +116,7 @@
     height: auto;
   }
   .hero-page-parent-div h1 {
-    font-size: 30px;
+    font-size: 35px;
     width: 90%;
     font-weight: 70;
   }
