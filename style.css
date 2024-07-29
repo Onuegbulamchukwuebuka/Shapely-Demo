@@ -230,12 +230,12 @@
   /* seo section ends here  */
   .portfolio-section-div {
     height: auto;
-    /* margin-top: 30px; */
+    margin-top: 110px;
     padding-top: 20px;
   }
   .portfolio-parent-div {
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     margin-left: auto;
     margin-right: auto;
   }
