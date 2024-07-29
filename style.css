@@ -43,7 +43,7 @@
 /* hero page starts here  */
 .hero-page-section-div {
   height: 100vh;
-  background-image: url(ocean.jpg);
+  background-image: url(water.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@
   width: 200px;
   height: 50px;
   border-color: transparent;
-  background-color: rgb(65, 83, 248);
+  background-color: blueviolet;
   color: white;
 }
 .hero-page-parent-div div .DOWNLOAD {
@@ -92,6 +92,50 @@
   color: white;
 }
 /* hero page ends here  */
+/* seo section starts hetre  */
+.seo-section-div {
+  height: 70vh;
+  background-color: white;
+}
+.seo-parent-div {
+  height: 70vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.seo-parent-div div {
+  width: 50%;
+  height: 50vh;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seo-parent-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.seo-parent-div div h2 {
+  font-weight: 100;
+  font-size: xx-large;
+}
+.seo-parent-div div p {
+  color: rgb(80, 80, 80);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.seo-parent-div div button {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+}
+/* seo section ends here  */
 
 /* media query starts here  */
 @media (max-width: 834px) {
@@ -104,6 +148,7 @@
   #menu {
     display: inline;
   }
+  /* nav bar ends here  */
   .hero-page-parent-div div {
     flex-wrap: wrap;
     width: 50%;
@@ -119,5 +164,22 @@
     font-size: 30px;
     width: 90%;
     font-weight: 70;
+  }
+  /* hero page ends here  */
+  .seo-section-div {
+    height: auto;
+  }
+  .seo-parent-div {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo-parent-div div {
+    width: 100%;
+    height: auto;
+  }
+  .seo-parent-div div p {
+    width: 98%;
   }
 }
