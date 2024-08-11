@@ -305,5 +305,7 @@
   .parallax-parent-div p {
     width: 90%;
     font-size: x-small;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
