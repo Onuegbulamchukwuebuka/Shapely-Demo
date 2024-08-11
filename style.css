@@ -297,4 +297,13 @@
   .parallax-parent-div {
     height: auto;
   }
+  .parallax-parent-div h1 {
+    font-size: 30px;
+    width: 90%;
+    font-weight: 70;
+  }
+  .parallax-parent-div p {
+    width: 90%;
+    font-size: x-small;
+  }
 }
