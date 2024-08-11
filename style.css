@@ -308,4 +308,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .parallax-parent-div button {
+    margin-bottom: 5px;
+  }
 }
