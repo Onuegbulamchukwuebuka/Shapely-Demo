@@ -182,7 +182,7 @@
 /* portfolio section ends here  */
 /* Small Parallax Section starts here  */
 .paraiiax-section-div {
-  height: 60vh;
+  height: 80vh;
   background-image: url(water.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@
   background-attachment: fixed;
 }
 .parallax-parent-div {
-  height: 60vh;
+  height: 80vh;
   width: 95%;
   display: flex;
   justify-content: center;
