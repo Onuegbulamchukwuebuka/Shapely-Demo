@@ -221,6 +221,60 @@
   color: white;
 }
 /* Small Parallax Section ends here  */
+/* Limitless Options starts here  */
+.Limitless-section-div {
+  height: 130vh;
+  background-color: white;
+}
+.Limitless-parent-div {
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Limitless-parent-div h1 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 130;
+  text-align: center;
+  width: 50%;
+}
+.Limitless-parent-div p {
+  text-align: center;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 100;
+  color: rgb(170, 168, 168);
+}
+.Limitless-parent-div button {
+  width: 200px;
+  height: 50px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+  margin-bottom: 30px;
+}
+.Limitless-parent-div div {
+  height: 612px;
+  width: 80%;
+}
+.Limitless-parent-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* Limitless Options ends here  */
+/* projects staers here  */
+.Projects-section-div {
+  height: 120vh;
+  background-color: black;
+  color: white;
+}
 
 /* media query starts here  */
 @media (max-width: 834px) {
@@ -309,6 +363,6 @@
     padding-bottom: 10px;
   }
   .parallax-parent-div button {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 }
