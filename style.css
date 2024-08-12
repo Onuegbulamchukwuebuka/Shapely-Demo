@@ -241,7 +241,7 @@
   font-size: 30px;
   font-weight: 130;
   text-align: center;
-  width: 50%;
+  width: 80%;
 }
 .Limitless-parent-div p {
   text-align: center;
@@ -364,5 +364,15 @@
   }
   .parallax-parent-div button {
     margin-bottom: 10px;
+  }
+  /* parallax ends here  */
+  .Limitless-section-div {
+    height: auto;
+  }
+  .Limitless-parent-div {
+    height: auto;
+  }
+  .Limitless-parent-div div {
+    height: auto;
   }
 }
