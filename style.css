@@ -271,12 +271,48 @@
 /* Limitless Options ends here  */
 /* projects staers here  */
 .Projects-section-div {
-  height: 120vh;
+  height: 135.3vh;
   background-color: black;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
+.Projects-parent-div {
+  height: 135.3vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.Projects-parent-div h1 {
+  margin-top: 40px;
+  font-weight: 100;
+}
+.Projects-parent-div p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.prioject-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.prioject-div div {
+  width: calc(100% / 4);
+}
+.prioject-div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* projects ends here  */
 
 /* media query starts here  */
+@media (max-width: 1024px) {
+  .project-images div {
+    width: calc(100% / 2);
+  }
+}
 @media (max-width: 834px) {
   .nav-bar-parent-div button {
     display: none;
@@ -385,5 +421,11 @@
   }
   .Limitless-parent-div div {
     height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .project-images div {
+    width: calc(100% / 1);
   }
 }
