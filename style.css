@@ -352,6 +352,12 @@
   border-radius: 100%;
 }
 /* Customers section ends here  */
+/* client section starts here  */
+.Clients-section-div {
+  height: 60vh;
+  background-color: red;
+}
+/* client section ends here  */
 
 /* media query starts here  */
 @media (max-width: 1024px) {
@@ -474,6 +480,10 @@
   .Limitless-parent-div div {
     height: auto;
     width: 100%;
+  }
+  .Customers-parent-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 768px) {
