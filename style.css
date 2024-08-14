@@ -481,11 +481,14 @@
     height: auto;
     width: 100%;
   }
+  /* limitless section ends here  */
   .Customers-parent-div h1 {
     padding-top: 10px;
+    font-size: 30px;
   }
   .Customers-parent-div h4 {
     padding-bottom: 10px;
+    font-weight: 100;
   }
 }
 @media (max-width: 768px) {
