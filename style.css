@@ -481,8 +481,10 @@
     height: auto;
     width: 100%;
   }
-  .Customers-parent-div {
+  .Customers-parent-div h1 {
     padding-top: 10px;
+  }
+  .Customers-parent-div h4 {
     padding-bottom: 10px;
   }
 }
