@@ -534,8 +534,6 @@
   }
   .logo-div {
     gap: 20px;
-    height: 50px;
-    width: 50px;
   }
 }
 @media (max-width: 768px) {
@@ -547,5 +545,10 @@
   }
   .prioject-div div {
     width: calc(100% / 1);
+  }
+}
+@media (max-width: 480px) {
+  .logo-div {
+    gap: 5px;
   }
 }
