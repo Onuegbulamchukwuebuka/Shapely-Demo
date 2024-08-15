@@ -390,6 +390,60 @@
   object-fit: cover;
 }
 /* client section ends here  */
+/* cta starts here  */
+.cta-section-div {
+  height: 40vh;
+  background-color: rgb(236, 236, 236);
+}
+.cta-parent-div {
+  height: 40vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+}
+.cta-parent-div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+}
+.cta-parent-div button {
+  height: 50px;
+  width: 200px;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* cta ends here  */
+/* footer starts here  */
+.footer-section-div {
+  height: 30vh;
+  background-color: black;
+  color: white;
+}
+.footer-parent-div {
+  height: 30vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-parent-div h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+/* footer ends here  */
 
 /* media query starts here  */
 @media (max-width: 1024px) {
@@ -538,6 +592,26 @@
   .logo-div div {
     height: auto;
     width: auto;
+  }
+  /* clients section ends here  */
+  .cta-section-div {
+    height: auto;
+  }
+  .cta-parent-div {
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .cta-parent-div button {
+    width: 95%;
+  }
+  .footer-section-div {
+    height: auto;
+  }
+  .footer-parent-div h4 {
+    font-size: x-small;
+    font-weight: 50;
   }
 }
 @media (max-width: 768px) {
